@@ -1,0 +1,183 @@
+body {
+	background-color: #2799cd;
+	color: #46ffc1;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+header {
+	background-color: #2799cd;
+	height: 120px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 3em;
+}
+
+header a { 
+	text-decoration: none;
+
+}
+header a:link {
+	color:#46ffc1;
+}
+header a:visited {
+	color:#46ffc1;
+}
+header a:hover {
+	color:aqua
+}
+nav {
+
+	font-weight: bold;
+	font-size: 120%;
+	padding: 1.5em;
+	float: left;
+	width: 160px;
+
+}
+nav a {
+	text-decoration: none;
+	transition: 2s linear;
+}
+nav ul {
+	list-style-type:circle;
+	margin: 0%;
+	padding-left: 0;
+	font-size: 1.2em;
+	
+}
+nav a:link {
+	color:#46ffc1
+}
+nav a:visited {
+	color: #46ffc1;
+}
+nav a:hover {
+	color:aqua;
+}
+main {
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	display: block;
+	background-color: #1976D2;
+	margin-left: 190px;
+	overflow: auto;
+}
+h1 {
+	font-family: Georgia,'Times New Roman', serif;
+	margin-bottom: 0.5%;
+	margin-top: 0%;
+	font-size: 3em;
+	letter-spacing: .25em;
+	background-color: #1976D2;
+}
+h2 {
+	color: #46ffc1;
+	font-family: Georgia,"Times New Roman", serif;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+h3 {font-family: Georgia,"Times New Roman", serif;
+	color: #394076;
+}
+ 
+main ul {list-style-image: url(marker.gif);
+	list-style-type: disc;
+}
+
+footer {font-size: 75%;
+		font-style: italic;
+		text-align: center;
+		font-family: Georgia,"Times New Roman", serif;
+		padding: 2em;
+	    margin-left: 190px;
+		background-color: #1976D2;
+}
+
+dt {
+	color: #002171;
+}
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #90C7E3;
+	min-width: 960px;
+	max-width: 2048px;
+	background-image: linear-gradient(to bottom, #1976D2, #002fff22);
+}
+#homehero {
+	height: 800px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+	background-image: url(kpop-anime-homepage.jpeg);
+}
+#faqhero {
+	height: 800px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+	background-image: url(sailor-moon.jpg)
+}
+#kpopmdhero {
+	height: 800px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+	background-image: url(kpop-md.jpg)
+}
+* { box-sizing: border-box; }
+
+.shop { font-weight: bold;
+	color: #1976D2;
+}
+#contact {font-size: 90%;
+}
+section {
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right:  2em;
+}
+#animemdhero {
+	height: 400px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+	background-image: url(anime-md.jpg)
+}
+label {
+	float: left; display: block; text-align: right; width: 140px; padding-right: 5px;
+}
+input {
+	display: block; margin-bottom: 20px;
+}
+textarea {
+	display: block; margin-bottom: 20px; 
+}
+input[type="submit"] {margin-left: 140px;}
+
+#special {
+	clear: both
+}
+table {
+	border: 2px solid #00ffea;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 0.5em;
+	border: 2px solid #89d8ff;
+}
+
+td {
+	text-align: center;
+}
+
+.text {
+	text-align: left;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #0044ff;
+}
